@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог вин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Каталог вин</h1>
+        <nav>
+            <a href="main.html">Главная</a>
+            <a href="assortiment.html">Каталог</a>
+            <a href="about.html">О нас</a>
+        </nav>
+    </header>
+
+    <section class="search-sort">
+        <input type="text" placeholder="Поиск..." id="search" />
+        <div class="sort-buttons">
+        <button data-sort="price">Сортировать по цене</button>
+        <button data-sort="country">Сортировать по стране</button>
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <!-- JS заполняет блоки -->
+    </section>
+
+    <div class="pagination" id="pagination">
+        <!-- Кнопки страниц -->
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Винный Бутик</p>
+    </footer>
+    <script src="catalog.js"></script>
+</body>
+</html>
